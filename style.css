@@ -1,0 +1,33 @@
+*{box-sizing:border-box;}
+.prova2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  margin-top: 200px;
+  left: 30%;
+  border: 2px solid #000;
+  background-color: dodgerblue;
+  flex-wrap: wrap;
+  padding:10px;
+}
+
+#counter {
+  display: flex;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.calc-style{display: inline-block;}
+button{width: 50px;height: 45px;font-size: 20px;margin: 5px;}
+input{width: 50px;height: 45px;font-size: 20px;margin: 5px;}
+.numeri{width: 70%;height: 100%;display: inline-block;margin-left: 15px;}
+.bottone{display: inline-block;width: 20%;}
